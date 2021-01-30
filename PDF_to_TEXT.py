@@ -32,8 +32,8 @@ def pdf_to_text(inputfile, outputfile):
     with open(outputfile, 'w', encoding = 'utf-8') as f:
         f.write(txt)
         
-inputfile = 'C:/Users/user/Desktop/포트폴리오_이재성.pdf'
-outputfile = 'C:/Users/user/Desktop/포트폴리오_이재성.txt'
+inputfile = '주소'
+outputfile = '주소'
 pdf_to_text(inputfile, outputfile)
 
 
